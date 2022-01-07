@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+import { init as httpInit } from 'utils/http';
+
+import Providers from 'providers';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Initialize HTTP Client (axios)
+httpInit();
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Providers>
+      <App />
+    </Providers>
   </React.StrictMode>,
   document.getElementById('root')
 );
