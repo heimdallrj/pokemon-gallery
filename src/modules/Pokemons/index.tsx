@@ -41,21 +41,16 @@ export default function Pokemons({ onSelect }: Props) {
   }, []);
 
   const handleFavourite = (name: string) => {
-    let _favourites: any = [];
-
     if (!favourites.includes(name)) {
       setFavourites((prevState: string[]) => [...prevState, name]);
-      // @TODO: Just keeping this as referenec to update local storage
-      // Imrove the logic here
-      _favourites.push(name);
     } else {
       // un-Like
-      _favourites = favourites.filter((f) => f !== name);
+      const _favourites = favourites.filter((f) => f !== name);
       setFavourites(_favourites);
     }
 
     // Sync with localStorage
-    window.localStorage.setItem(lsFavKey, JSON.stringify(_favourites));
+    window.localStorage.setItem(lsFavKey, JSON.stringify(favourites));
   };
 
   const handleLoadMore = () => {
