@@ -1,6 +1,6 @@
 import { ThemeProvider as StyledProvider } from 'styled-components';
 
-import './default.css';
+import './main.css';
 
 type Props = {
   children: React.ReactNode;

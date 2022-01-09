@@ -1,6 +1,3 @@
-import { Provider as ReduxProvider } from 'react-redux';
-
-import store from 'store';
 import ThemeProvider from './ThemeProvider';
 
 type Props = {
@@ -8,9 +5,5 @@ type Props = {
 };
 
 export default function Providers({ children }: Props) {
-  return (
-    <ReduxProvider store={store}>
-      <ThemeProvider>{children}</ThemeProvider>
-    </ReduxProvider>
-  );
+  return <ThemeProvider>{children}</ThemeProvider>;
 }

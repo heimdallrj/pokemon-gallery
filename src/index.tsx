@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 
 import { init as httpInit } from 'utils/http';
 
+// @NOTE: Idea here is exporsue unified Provider HoC,
+// wrapping all providers such as Theme, or any later as needed
 import Providers from 'providers';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
