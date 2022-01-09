@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Pokemon renders when all the props has provided 1`] = `
+<div
+  className="sc-bdvvtL"
+>
+  <h2
+    className="sc-gsDKAQ kGDybl"
+  >
+    venonat
+  </h2>
+  <img
+    alt="venonat"
+    className="sc-jRQBWg blClLs"
+    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+  />
+  <div
+    className="sc-dkPtRN jNTvLF"
+  >
+    <div
+      className="sc-hKwDye cNjaZt"
+    >
+      <span
+        className="sc-eCImPb eMNjgV"
+      >
+        Weight:
+      </span>
+       
+      18
+    </div>
+    <div
+      className="sc-hKwDye cNjaZt"
+    >
+      <span
+        className="sc-eCImPb eMNjgV"
+      >
+        Abilities:
+      </span>
+       
+      a, b, c
+    </div>
+    <div
+      className="sc-hKwDye cNjaZt"
+    >
+      <span
+        className="sc-eCImPb eMNjgV"
+      >
+        Moves:
+      </span>
+       
+      x, y
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Components - Pokemon renders when only name has provided 1`] = `
+<div
+  className="sc-bdvvtL"
+>
+  <h2
+    className="sc-gsDKAQ kGDybl"
+  >
+    venonat
+  </h2>
+  <div
+    className="sc-dkPtRN jNTvLF"
+  />
+</div>
+`;
