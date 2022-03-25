@@ -1,4 +1,4 @@
-# architrave-frontend-challenge
+# Pokémon Gallery
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -7,8 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Setting up locally and installing dependencies
 
 ```bash
-git clone git@github.com:thinkholic/architrave-frontend-challenge.git
-cd architrave-frontend-challenge
+git clone git@github.com:thinkholic/pokemon-gallery.git
+cd pokemon-gallery
 npm install // or yarn
 ```
 
