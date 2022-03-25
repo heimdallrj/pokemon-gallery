@@ -39,3 +39,7 @@ npm run test
 - Didn't use `Redux` or any third-party state management startegy as it's an overkill for the provided scope.
 - File structure has orgnized in scalable manner
 - Added some comments mentioning some improvement points.
+
+## Known Issues (Added later on March 25, 2022)
+
+- There is an issue when syncing state with local storage. The problem occured due to asynchronous of nature of `useState` hook, and should've considered that when updating. `(src/modules/Pokemons/index.js:34-54)`.
